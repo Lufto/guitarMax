@@ -7,6 +7,9 @@
 Запуск проекта требует выполнения следующих команд:
 
 npm i
+
 npx vite build
+
 npx json-server db.json
+
 npx vite preview
