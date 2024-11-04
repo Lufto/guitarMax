@@ -1,0 +1,36 @@
+.catalog {
+	height: 100%;
+	min-height: 100vh;
+	.container {
+		color: var(--text, #444b58);
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		padding: 40px 20px;
+		align-items: flex-start;
+		h2 {
+			font-size: 30px;
+			font-weight: 700;
+		}
+		.wrapper {
+			width: 100%;
+			margin: 0;
+			display: flex;
+			gap: 40px;
+			align-items: flex-start;
+			flex-direction: column;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.catalog {
+		.container {
+			.wrapper {
+				flex-direction: row;
+				gap: 10px;
+			}
+		}
+	}
+}

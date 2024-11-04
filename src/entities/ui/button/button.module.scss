@@ -1,0 +1,43 @@
+.button {
+	padding: 10px 20px;
+	font-size: 12px;
+	border-radius: 2px;
+	color: var(--sec-bg);
+	text-align: center;
+}
+
+.brawn {
+	background: var(--accent);
+	&:hover {
+		background: var(--accent-hover);
+	}
+	&:active {
+		background: var(--accent-active);
+	}
+}
+
+.grey {
+	background: var(--text);
+	&:hover,
+	:active {
+		background: var(--gray-dark);
+	}
+}
+
+.secondaryGray {
+	border: 1px solid var(--text);
+	color: var(--text);
+	&:hover,
+	:active {
+		color: var(--sec-bg);
+		border: 1px solid var(--sec-bg);
+		background: var(--text);
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.button {
+		padding: 15px 30px;
+		font-size: 14px;
+	}
+}

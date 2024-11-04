@@ -1,0 +1,346 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	height: 650px;
+}
+
+.card {
+	position: absolute;
+
+	width: 430px;
+	height: 270px;
+}
+
+.card__front,
+.card__back {
+	position: absolute;
+
+	border-radius: 20px;
+
+	height: 100%;
+	width: 100%;
+
+	transition: all 0.8s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+}
+
+.card__front {
+	z-index: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	padding: 25px;
+
+	background: center
+		url('https://raw.githubusercontent.com/leonid460/credit-card-form/master/src/assets/images/cyber-girl.jpeg');
+	background-size: cover;
+
+	transform: perspective(2000px) rotateY(0deg) rotateX(0deg) rotate(0deg);
+}
+
+.card__front__top-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	height: 50px;
+	width: 100%;
+}
+
+.card__front__top-row__chip {
+	margin: 0;
+	width: 60px;
+	height: 50px;
+
+	border-radius: 6px;
+
+	background: center
+		url('https://raw.githubusercontent.com/leonid460/credit-card-form/master/src/assets/images/chip.png');
+	background-size: cover;
+}
+.card__front__top-row__type {
+	margin: 0;
+	height: 42px;
+	width: 80px;
+
+	background: center
+		url('https://raw.githubusercontent.com/leonid460/credit-card-form/master/src/assets/images/visa.png');
+	background-size: cover;
+}
+
+.card__front__number {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	width: 100%;
+
+	font-size: 30px;
+	font-family: 'Source Code Pro', monospace;
+	word-spacing: 22px;
+	font-stretch: semi-expanded;
+
+	color: white;
+}
+
+.card__front__number__group__item {
+	display: inline-block;
+	width: 19px;
+}
+
+.card__front__bottom-row {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card__front__bottom-row__card-holder,
+.card__front__bottom-row__expires-date {
+	margin: 0;
+}
+
+.card__front__bottom-row__card-holder__label,
+.card__front__bottom-row__expires-date__label {
+	font-size: 14px;
+	color: #ccc;
+}
+.card__front__bottom-row__card-holder__value,
+.card__front__bottom-row__expires-date__value {
+	font-family: 'Source Code Pro', monospace;
+
+	font-size: 18px;
+	color: white;
+}
+
+.expires-date-item {
+	display: inline-block;
+}
+
+.card__back {
+	z-index: 0;
+
+	display: flex;
+	flex-direction: column;
+
+	background: center
+		url('https://raw.githubusercontent.com/leonid460/credit-card-form/master/src/assets/images/cyber-girl.jpeg');
+	background-size: cover;
+
+	transform: perspective(2000px) rotateY(-180deg) rotateX(0deg) rotate(0deg);
+}
+
+.card__back__black-line {
+	background: rgb(0, 0, 0, 0.8);
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.card__back__cvv {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px;
+}
+.card__back__cvv div {
+	margin-left: auto;
+	margin-right: 5px;
+	color: rgb(0, 0, 0);
+}
+.card__back__cvv__field {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	height: 45px;
+	padding: 13px 10px;
+	border-radius: 5px;
+	background: rgb(255, 255, 255);
+}
+
+.card__back__card-type {
+	height: 42px;
+	max-width: 80px;
+
+	margin-left: auto;
+	margin-right: 15px;
+	margin-top: 30px;
+
+	background: center
+		url('https://raw.githubusercontent.com/leonid460/credit-card-form/master/src/assets/images/visa.png');
+	background-size: cover;
+}
+
+.card.turned .card__front {
+	transform: perspective(2000px) rotateY(-180deg) rotateX(0deg) rotate(0deg);
+	transform-style: preserve-3d;
+	z-index: 0;
+}
+
+.card.turned .card__back {
+	transform: perspective(2000px) rotateY(-360deg) rotateX(0deg) rotate(0deg);
+	transform-style: preserve-3d;
+	z-index: 1;
+}
+
+.card-form {
+	position: absolute;
+	bottom: 0;
+
+	border-radius: 10px;
+
+	max-width: 580px;
+	max-height: 510px;
+
+	background: rgb(222, 222, 222);
+}
+
+.card-form__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	margin-top: 180px;
+	padding: 0 30px;
+
+	height: 290px;
+	width: 100%;
+}
+
+.card-form__inner__input-field {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+}
+.card-form__inner__input-field label {
+	color: rgb(17, 17, 17);
+}
+
+.card-form__inner__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card-form__inner__row__column {
+	display: flex;
+	flex-direction: column;
+}
+
+.wrap-inp {
+	display: flex;
+	gap: 37px;
+}
+
+.wrap-inp-date {
+	display: flex;
+	gap: 20px;
+}
+
+.card-form__input-label {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-form__input {
+	padding: 10px 20px;
+	height: 55px;
+	padding-left: 10px;
+
+	border-radius: 5px;
+	border: solid 1px #ccc;
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+
+	background: white;
+	color: #1a3b5d;
+}
+.card-form__input:hover,
+.card-form__input:focus {
+	border-color: #3d9cff;
+	transition: all 0.3s ease-in-out;
+}
+
+.card-form__inner__row__column .card-form__input {
+	max-width: 155px;
+}
+
+#expiration-month {
+	margin-right: 18px;
+}
+
+.button_menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.card__front__number {
+		font-size: 24px;
+	}
+
+	.card__front__bottom-row {
+		flex-direction: column;
+	}
+
+	.card__front__bottom-row__card-holder,
+	.card__front__bottom-row__expires-date {
+		margin-bottom: 10px;
+	}
+
+	.card-form {
+		width: 100%;
+		height: 420px;
+		bottom: 20px;
+	}
+
+	.wrap-inp {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.card-form__inner {
+		margin-top: 50px;
+		padding: 0 20px;
+	}
+
+	.card-form__input {
+		font-size: 16px;
+		width: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		width: 95%;
+	}
+
+	.card__front__top-row {
+		height: 40px;
+	}
+
+	.card__front__top-row__chip,
+	.card__front__top-row__type {
+		width: 50px;
+		height: 40px;
+	}
+
+	.card__front__number__group__item {
+		width: 10px;
+	}
+	.card__front__number {
+		font-size: 16px;
+	}
+
+	.card-form__inner {
+		padding: 0 10px;
+	}
+}

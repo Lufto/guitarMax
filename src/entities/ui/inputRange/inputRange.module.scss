@@ -1,0 +1,20 @@
+.inputRange {
+	position: relative;
+	border: 1px solid var(--small-text);
+	border-radius: 5px;
+	display: flex;
+	input {
+		appearance: none;
+		padding: 10px;
+		max-width: 120px;
+	}
+	&::after {
+		content: '';
+		position: absolute;
+		width: 1px;
+		height: 25px;
+		top: 5px;
+		right: 50%;
+		background: var(--small-text);
+	}
+}

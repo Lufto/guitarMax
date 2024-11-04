@@ -1,0 +1,508 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Fender Stratocaster",
+      "type": "Electric Guitar",
+      "stock_quantity": 0,
+      "is_bestseller": true,
+      "price": 1200,
+      "image": "https://muz-hall.ru/upload/iblock/163/pvxv2nithh7hohzh43evtaqj216dnmzi/12345.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "2",
+      "name": "Gibson Les Paul",
+      "type": "Electric Guitar",
+      "stock_quantity": 5,
+      "is_bestseller": false,
+      "price": 1500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj1FOm1D7eGCQ0FRLAiYaP4IncTZVy48jGGA&s",
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "name": "Yamaha C40",
+      "type": "Classical Guitar",
+      "stock_quantity": 8,
+      "is_bestseller": true,
+      "price": 150,
+      "image": "https://yamaha.ru/d/53_1.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": "4",
+      "name": "Martin D-28",
+      "type": "Acoustic Guitar",
+      "stock_quantity": 4,
+      "is_bestseller": false,
+      "price": 2500,
+      "image": "https://www.martinguitar.com/on/demandware.static/-/Sites-martin-master-catalog/default/dw91e54b4d/images/D-28/D-28_f.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "5",
+      "name": "Steinway & Sons Model D",
+      "type": "Grand Piano",
+      "stock_quantity": 2,
+      "is_bestseller": true,
+      "price": 85000,
+      "image": "https://eu.steinway.com/fileadmin/user_upload/Fluegel_D_Black_03.jpg",
+      "rating": 5
+    },
+    {
+      "id": "6",
+      "name": "Ludwig Classic Maple Drum Set",
+      "type": "Drums",
+      "stock_quantity": 3,
+      "is_bestseller": false,
+      "price": 3500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcp4sF0rZDHbR_nHUXB0biGGgn3Dh6SgvVoQ&s",
+      "rating": 4.7
+    },
+    {
+      "id": "7",
+      "name": "Fender Precision Bass",
+      "type": "Bass Guitar",
+      "stock_quantity": 7,
+      "is_bestseller": true,
+      "price": 1000,
+      "image": "https://images.musicstore.de/images/1280/fender-player-precision-bass-mn-3-colour-sunburst-_1_BAS0009824-000.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": "8",
+      "name": "Selmer Paris Reference 54",
+      "type": "Saxophone",
+      "stock_quantity": 6,
+      "is_bestseller": false,
+      "price": 6700,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGkztL9GdUNedqn2fibNZbz1ZziChqxVTdVw&s",
+      "rating": 4.9
+    },
+    {
+      "id": "9",
+      "name": "Yamaha YFL-222",
+      "type": "Flute",
+      "stock_quantity": 10,
+      "is_bestseller": true,
+      "price": 700,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQiDE4BhC4HCJqAoPV5CKny8nJ5WmhHjs12w&s",
+      "rating": 4.8
+    },
+    {
+      "id": "10",
+      "name": "Buffet Crampon R13",
+      "type": "Clarinet",
+      "stock_quantity": 4,
+      "is_bestseller": true,
+      "price": 3500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUbCBBvO4sLePyst49xLOmav4jgcUkQUZDg&s",
+      "rating": 4.9
+    },
+    {
+      "id": "11",
+      "name": "Dunlop Tortex Standard Guitar Pick",
+      "type": "Guitar Pick",
+      "stock_quantity": 100,
+      "is_bestseller": true,
+      "price": 0.5,
+      "image": "https://cdn11.bigcommerce.com/s-n26aknlnlm/images/stencil/1280x1280/products/143/4906/23418114112.MAIN__22806.1663875847.jpg?c=2",
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "name": "Elixir Nanoweb Guitar Strings",
+      "type": "Guitar Strings",
+      "stock_quantity": 50,
+      "is_bestseller": true,
+      "price": 15,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KHEaBjrv2ILSmzsTAERuVVlXIeUL8XP3oA&s",
+      "rating": 4.9
+    },
+    {
+      "id": "13",
+      "name": "Vic Firth American Classic Drum Sticks",
+      "type": "Drum Sticks",
+      "stock_quantity": 75,
+      "is_bestseller": true,
+      "price": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqaBQsc-pTIz0d1y2349wiTU4Fh3_mQWN55g&s",
+      "rating": 4.7
+    },
+    {
+      "id": "14",
+      "name": "Roland KC-550",
+      "type": "Keyboard Amplifier",
+      "stock_quantity": 0,
+      "is_bestseller": true,
+      "price": 600,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpUpXo8n0juWLNK4wj9SkwZ6mV6FLRD_HKw&s",
+      "rating": 4.6
+    },
+    {
+      "id": "15",
+      "name": "Boss DS-1 Distortion Pedal",
+      "type": "Guitar Pedal",
+      "stock_quantity": 30,
+      "is_bestseller": true,
+      "price": 60,
+      "image": "https://stevesmusic.com/cdn/shop/files/6238.jpg?v=1709403269&width=500",
+      "rating": 4.8
+    },
+    {
+      "id": "16",
+      "name": "Shure SM58 Microphone",
+      "type": "Microphone",
+      "stock_quantity": 0,
+      "is_bestseller": true,
+      "price": 100,
+      "image": "https://images.musicstore.de/images/1280/shure-sm58-lce-dynamic-microphone_1_PAH0000163-000.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "17",
+      "name": "Korg Volca Bass",
+      "type": "Synthesizer",
+      "stock_quantity": 12,
+      "is_bestseller": true,
+      "price": 150,
+      "image": "https://polysound.ru/upload/iblock/8a2/8a2c4c4df053808dd1b4397dac7669e7.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "18",
+      "name": "Numark Mixtrack Pro FX",
+      "type": "DJ Controller",
+      "stock_quantity": 8,
+      "is_bestseller": true,
+      "price": 230,
+      "image": "https://www.allfordj.ru/upload/iblock/4a9/numark_mixtrack_pro_fx_1.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": "19",
+      "name": "Fender Deluxe Hard Case",
+      "type": "Guitar Case",
+      "stock_quantity": 15,
+      "is_bestseller": true,
+      "price": 130,
+      "image": "https://skifmusic.ru/thumbs/28/e2/600x600_1_normal_3f15be1ff118b66dac20ca0a524b.webp",
+      "rating": 4.8
+    },
+    {
+      "id": "20",
+      "name": "Hohner Marine Band Harmonica",
+      "type": "Harmonica",
+      "stock_quantity": 20,
+      "is_bestseller": true,
+      "price": 45,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57ZGq_W_33-8Kyukc6ua99fUsLyRQX9DVw&s",
+      "rating": 4.7
+    },
+    {
+      "id": "21",
+      "name": "Kun Original Violin Shoulder Rest",
+      "type": "Violin Accessory",
+      "stock_quantity": 30,
+      "is_bestseller": true,
+      "price": 25,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzHvrl2Up-nnmTPril_zo4gOGGy76tINcdw&s",
+      "rating": 4.6
+    },
+    {
+      "id": "22",
+      "name": "Gator Cases Lightweight Mixer Case",
+      "type": "DJ Equipment Case",
+      "stock_quantity": 18,
+      "is_bestseller": true,
+      "price": 150,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcsrLd7yth7MdGlagkcfO2AgPX_mOF0530g&s",
+      "rating": 4.7
+    },
+    {
+      "id": "23",
+      "name": "Remo Emperor Coated Drumhead",
+      "type": "Drumhead",
+      "stock_quantity": 50,
+      "is_bestseller": true,
+      "price": 30,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMADisnzg_RSwIU5fWliTnZHw1tqTa1mwjw&s",
+      "rating": 4.8
+    },
+    {
+      "id": "24",
+      "name": "D'Addario Violin Rosin",
+      "type": "Violin Accessory",
+      "stock_quantity": 40,
+      "is_bestseller": true,
+      "price": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tIB60oU1KUHFCcoUfCRh5k2aqgFydDCixg&s",
+      "rating": 4.9
+    },
+    {
+      "id": "25",
+      "name": "Zildjian K Custom Hybrid Hi-Hat",
+      "type": "Cymbals",
+      "stock_quantity": 5,
+      "is_bestseller": true,
+      "price": 480,
+      "image": "https://skifmusic.ru/thumbs/b0/12/600x600_1_normal_7c50c939de0414fa61fa1f17808d.webp",
+      "rating": 4.9
+    },
+    {
+      "id": "26",
+      "name": "Audio-Technica ATH-M50x Headphones",
+      "type": "Headphones",
+      "stock_quantity": 25,
+      "is_bestseller": true,
+      "price": 150,
+      "image": "https://www.audio-technica.com/media/catalog/product/cache/c673bc7fec8808a80d23918742b3f339/a/t/ath-m40x_01a.png",
+      "rating": 4.9
+    },
+    {
+      "id": "27",
+      "name": "Behringer Xenyx Q802USB Mixer",
+      "type": "Audio Mixer",
+      "stock_quantity": 10,
+      "is_bestseller": true,
+      "price": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREAL1fYtsorfkACmMjjZh_U-mLdZuoy1-p8A&s",
+      "rating": 4.8
+    },
+    {
+      "id": "28",
+      "name": "K&M 210/9 Microphone Stand",
+      "type": "Microphone Stand",
+      "stock_quantity": 30,
+      "is_bestseller": true,
+      "price": 60,
+      "image": "https://mustore.ru/images/shop/product/resized/4q3msloca5k4oo88cks8so8kk_350x350.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "29",
+      "name": "Pearl P-930 Demonator Pedal",
+      "type": "Drum Pedal",
+      "stock_quantity": 20,
+      "is_bestseller": true,
+      "price": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBAYWKMfkrAn8ZozhVNZAfitRkVNDDEop-Sw&s",
+      "rating": 4.8
+    },
+    {
+      "id": "30",
+      "name": "Denis Wick Trumpet Mute",
+      "type": "Trumpet Mute",
+      "stock_quantity": 15,
+      "is_bestseller": true,
+      "price": 35,
+      "image": "https://www.deniswick.com/wp-content/uploads/2016/08/DW5504.jpg",
+      "rating": 4.7
+    }
+  ],
+  "instrument_types": [
+    {
+      "id": "1",
+      "name": "Electric Guitar"
+    },
+    {
+      "id": "2",
+      "name": "Classical Guitar"
+    },
+    {
+      "id": "3",
+      "name": "Acoustic Guitar"
+    },
+    {
+      "id": "4",
+      "name": "Grand Piano"
+    },
+    {
+      "id": "5",
+      "name": "Drums"
+    },
+    {
+      "id": "6",
+      "name": "Bass Guitar"
+    },
+    {
+      "id": "7",
+      "name": "Saxophone"
+    },
+    {
+      "id": "8",
+      "name": "Flute"
+    },
+    {
+      "id": "9",
+      "name": "Clarinet"
+    },
+    {
+      "id": "10",
+      "name": "Synthesizer"
+    },
+    {
+      "id": "11",
+      "name": "DJ Controller"
+    },
+    {
+      "id": "12",
+      "name": "Harmonica"
+    },
+    {
+      "id": "13",
+      "name": "Violin"
+    }
+  ],
+  "accessory_types": [
+    {
+      "id": "1",
+      "name": "Guitar Pick"
+    },
+    {
+      "id": "2",
+      "name": "Guitar Strings"
+    },
+    {
+      "id": "3",
+      "name": "Drum Sticks"
+    },
+    {
+      "id": "4",
+      "name": "Keyboard Amplifier"
+    },
+    {
+      "id": "5",
+      "name": "Guitar Pedal"
+    },
+    {
+      "id": "6",
+      "name": "Microphone"
+    },
+    {
+      "id": "7",
+      "name": "Guitar Case"
+    },
+    {
+      "id": "8",
+      "name": "Violin Accessory"
+    },
+    {
+      "id": "9",
+      "name": "DJ Equipment Case"
+    },
+    {
+      "id": "10",
+      "name": "Drumhead"
+    },
+    {
+      "id": "11",
+      "name": "Cymbals"
+    },
+    {
+      "id": "12",
+      "name": "Headphones"
+    },
+    {
+      "id": "13",
+      "name": "Audio Mixer"
+    },
+    {
+      "id": "14",
+      "name": "Microphone Stand"
+    },
+    {
+      "id": "15",
+      "name": "Drum Pedal"
+    },
+    {
+      "id": "16",
+      "name": "Trumpet Mute"
+    }
+  ],
+  "sort_value": [
+    {
+      "id": "1",
+      "name": "По цене"
+    },
+    {
+      "id": "2",
+      "name": "По рейтингу"
+    }
+  ],
+  "cart": [
+    {
+      "id": "852a6361-9893-466a-8205-9c689c831f43",
+      "id_products": "3",
+      "name": "Yamaha C40",
+      "type": "Classical Guitar",
+      "stock_quantity": 8,
+      "is_bestseller": true,
+      "price": 150,
+      "image": "https://yamaha.ru/d/53_1.jpg",
+      "rating": 4.6,
+      "ordered_quantity": 6
+    },
+    {
+      "id": "5713feb9-f17f-44bd-adab-0e543592bf72",
+      "id_products": "11",
+      "name": "Dunlop Tortex Standard Guitar Pick",
+      "type": "Guitar Pick",
+      "stock_quantity": 100,
+      "is_bestseller": true,
+      "price": 0.5,
+      "image": "https://cdn11.bigcommerce.com/s-n26aknlnlm/images/stencil/1280x1280/products/143/4906/23418114112.MAIN__22806.1663875847.jpg?c=2",
+      "rating": 4.8,
+      "ordered_quantity": 3
+    },
+    {
+      "id": "c42ae50e-2554-48f4-b6b5-8daf4f3f2040",
+      "id_products": "24",
+      "name": "D'Addario Violin Rosin",
+      "type": "Violin Accessory",
+      "stock_quantity": 40,
+      "is_bestseller": true,
+      "price": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tIB60oU1KUHFCcoUfCRh5k2aqgFydDCixg&s",
+      "rating": 4.9,
+      "ordered_quantity": 1
+    },
+    {
+      "id": "e58660c5-d9cc-4478-b355-1187456dc9dd",
+      "id_products": "23",
+      "name": "Remo Emperor Coated Drumhead",
+      "type": "Drumhead",
+      "stock_quantity": 50,
+      "is_bestseller": true,
+      "price": 30,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMADisnzg_RSwIU5fWliTnZHw1tqTa1mwjw&s",
+      "rating": 4.8,
+      "ordered_quantity": 1
+    },
+    {
+      "id": "ea3a6dc7-d051-45b1-8632-db8040292b99",
+      "id_products": "20",
+      "name": "Hohner Marine Band Harmonica",
+      "type": "Harmonica",
+      "stock_quantity": 20,
+      "is_bestseller": true,
+      "price": 45,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57ZGq_W_33-8Kyukc6ua99fUsLyRQX9DVw&s",
+      "rating": 4.7,
+      "ordered_quantity": 20
+    },
+    {
+      "id": "b4082bd9-e859-49cf-838b-d83770333b0c",
+      "id_products": "21",
+      "name": "Kun Original Violin Shoulder Rest",
+      "type": "Violin Accessory",
+      "stock_quantity": 30,
+      "is_bestseller": true,
+      "price": 25,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzHvrl2Up-nnmTPril_zo4gOGGy76tINcdw&s",
+      "rating": 4.6,
+      "ordered_quantity": 1
+    }
+  ]
+}

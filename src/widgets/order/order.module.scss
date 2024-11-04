@@ -1,0 +1,23 @@
+.section {
+	min-height: 100vh;
+	max-width: 700px;
+	margin: 0 auto;
+	.container {
+		padding-top: 60px;
+		.prise {
+			padding: 40px 20px;
+			font-size: 20px;
+		}
+		form {
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+		.button_menu {
+			display: flex;
+			justify-content: space-between;
+			padding: 20px;
+		}
+	}
+}

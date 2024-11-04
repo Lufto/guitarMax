@@ -1,0 +1,22 @@
+.wrap {
+	.is_bestseller {
+		color: var(--accent);
+		font-size: 20px;
+	}
+	.image {
+		max-width: 600px;
+		width: 100%;
+	}
+	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		.title {
+			font-size: 25px;
+			font-weight: 300px;
+		}
+		.prise {
+			font-size: 20px;
+		}
+	}
+}
